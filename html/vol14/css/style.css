@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+/* テキストの自動拡大を無効化 */
+body {
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none; 
+}
+
+/* 基本設定 */
+
+* {
+	margin: 0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* ページ全体の設定 */
+body {
+	font-family: sans-serif;
+}
+
+
+/* ヘッダー */
+header {
+	font-size: 40px;
+	color: #555d6b;
+	font-family: 'Raleway', sans-serif;
+}
+
+header a {
+	color: inherit;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav a {
+	color: #666666;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #ef9504;
+}
+
+
+figure.hero img {
+	height: 547px;
+	object-fit: cover;
+	vertical-align: bottom;
+	filter: brightness(70%);
+	z-index: -1;
+	position: relative; /* Edge用の設定 */
+}
+
+
+
+/* タイトル */
+.top h1 {
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: normal;
+	line-height: 1.2;
+	text-shadow: 0 0 5px #444444;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* サブタイトル */
+.top p {
+	text-align: center;
+}
+
+.top p a {
+	color: #ffffff;
+	text-decoration: none;
+	border: solid 1px #ffffff;
+	padding: 10px 40px;
+	display: inline-block;
+	margin-top: 10px;
+	border-radius: 10px;
+	background-color: rgba(85, 93, 107, 0.5);
+}
+
+.top p a:hover {
+	background-color: #ef9504;
+}
+
+.top p img {
+	width: 250px;
+}
+
+
+section a, aside a {
+	color: #000000;
+	text-decoration: none;
+}
+
+section a:hover, aside a:hover {
+	text-decoration: underline;
+}
+
+section h3, aside h3 {
+	font-size: 14px;
+}
+
+section h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+}
+
+
+/* フッター */
+footer {
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* フッターのバー */
+body::after {
+	content: "";
+	background-color: #eeeeee;
+}
+
+
+aside {
+	border: solid 1px #dddddd;
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+aside h2 {
+	border-bottom: solid 1px #dddddd;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	color: #888888;
+	font-weight: normal;
+	font-family: 'Raleway', sans-serif;
+}
+
+aside p {
+	font-size: 14px;
+}
+
+aside:first-child img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+aside ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: left;
+}
+
+/* フッター */
+footer {
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* フッターのバー */
+body::after {
+	content: "";
+	background-color: #eeeeee;
+}
+
+

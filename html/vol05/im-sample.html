@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Map Sample</title>
+</head>
+<body>
+  <h1>イメージマップの表示</h1>
+  <p>1. 矩形に対してイメージマップを設定します。</p>
+  <img src="images/rectangle.png" usemap="#map01">
+  <map name="map01">
+    <area shape="rect" coords="(10, 10, 110, 110)" href="im-rect.html">
+  </map>
+
+  <p>2. 円に対してイメージマップを設定します。</p>
+  <img src="images/circle.png" usemap="#map02">
+  <map name="map02">
+    <area shape="circle" coords="(50, 50, 50)" href="im-circle.html">
+  </map>
+
+  <p>3. 多角形に対してイメージマップを設定します。</p>
+  <img src="images/triangle.png" usemap="#map03">
+  <map name="map03">
+    <area shape="poly" coords="(0, 105, 65, 0, 130, 105)" href="im-poly.html">
+  </map>
+</body>
+</html>

@@ -1,0 +1,23 @@
+div{
+    border: 2px dashed gray;
+    /*width: 800px;*/
+    height: 300px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-rows: [line1] 60px [line2] 1fr [line3] 2fr [line4];
+    grid-template-columns: 100px 2fr 1fr;
+}
+p{margin: 0;}
+p:nth-child(5n){background-color: lightcyan;}
+p:nth-child(5n+1){background-color: lightpink;}
+p:nth-child(5n+2){background-color: lightsteelblue;}
+p:nth-child(5n+3){background-color: lightyellow;}
+p:nth-child(5n+4){background-color: lightgreen;}
+div.area1{
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    grid-template-rows: 150px 150px;
+}
+div.area2{
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-template-rows: 150px 150px;
+}

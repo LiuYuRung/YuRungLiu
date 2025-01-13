@@ -1,0 +1,66 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Murecho&display=awap');
+
+body {
+    margin: 0px;
+}
+/*見出し*/
+header {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.header {
+    position: absolute;
+    width: fit-content;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(251, 251, 106);
+}
+.header > h1{
+    font-size: 5em;
+    border-bottom: 10px solid yellow;
+    padding: 0px 40px;
+    font-family: 'Murecho',sans-serif;
+}
+.header >h1::before, .header > h1::after {
+    content: "★";
+}
+
+/*説明文*/
+.box {
+    position: relative;
+    padding: 1em;
+}
+.box::before, .box::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 30px;
+}
+.box::before{
+    border-left: solid 2px white;
+    border-top: solid 2px white;
+    top: 0;
+    left: 0;
+}
+.box::after{
+    border-right: solid 2px white;
+    border-bottom: solid 2px white;
+    bottom: 0;
+    right: 0;
+}
+.explain{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-align: center;
+    margin-top: 10%;
+}

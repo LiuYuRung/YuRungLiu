@@ -1,0 +1,15 @@
+#bar{ /*id100点*/
+    color:orange;
+}
+.foo{ /*クラス10点*/
+    color:blue;
+}
+:hover{/*疑似クラス10点*/
+    color:purple;
+}/*属性10点*/
+[title="hoge"]{
+    color:pink;
+}
+h2{/*タープ1点*/
+    color:green;
+}

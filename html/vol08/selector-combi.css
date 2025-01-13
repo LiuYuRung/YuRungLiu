@@ -1,0 +1,11 @@
+h2.jec:hover{
+    color:red;
+}
+
+li.ai::first-letter{
+    color:orange;
+}
+
+[title="jn"]:active.it::first-letter{
+    color:blue;
+}

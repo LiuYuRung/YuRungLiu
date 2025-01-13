@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Audio Sample</title>
+</head>
+<body>
+  <h1>音声の再生</h1>
+  <p>1. 音声を再生します。</p>
+  <audio src="audios/gekko.mp3" controls></audio>
+
+  <p>2. 複数の音声から再生可能なものを再生します。</p>
+  <audio controls autoplay muted>
+    <source src="audios/birds.m4a">
+    <source src="audios/serenade.mp3">
+    再生可能な音声がありません。
+  </audio>
+</body>
+</html>

@@ -1,0 +1,6 @@
+thead {
+    color:red;
+}
+tr:nth-child(2n){
+   color:blue; 
+}

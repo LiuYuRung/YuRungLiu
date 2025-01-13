@@ -1,0 +1,8 @@
+/* id属性が「rank」の要素の色が赤になる */
+#rank {
+    color:red;
+}
+/* id属性が「piyo」のh2要素の色が青になる*/
+h2#piyo {
+    color: blue;
+}

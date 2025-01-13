@@ -1,0 +1,109 @@
+
+#navi_header{    
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.navi_k{
+    width: 1250px;
+}
+.navi_s{
+    width: 1000px;
+}
+.navi_f{
+    width: 1000px;
+}
+.navi_t{
+    width: 1000px;
+}
+h1{
+    text-align: center;
+}
+#mainpart1{
+    height: 1750px;
+    background-color: rgba(250, 235, 215, 0.658);
+    font-family: 游明朝, 游ゴシック;
+}
+#night-market{
+    text-align: justify;
+    width: 1000px;
+    float: right;
+}
+#night-market img{
+    float: right;
+    margin-right: 100px;
+    margin-left: 30px;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+#night-market h2{
+    text-decoration: underline dashed rgb(205, 205, 205);
+    margin-bottom: 60px;
+}
+#Zhongzheng{
+    text-align: justify;
+    width: 1125px;
+    float: left;
+}
+#Zhongzheng img{
+    float: left;
+    margin-right: 30px;
+    margin-left: 240px;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+#Zhongzheng h2{
+    margin-bottom: 80px;
+    text-decoration: underline dashed rgb(205, 205, 205);
+}
+#HepingIsland{
+    text-align: justify;
+    width: 1000px;
+    float: right;
+}
+#HepingIsland img{
+    float: right;
+    margin-right: 100px;
+    margin-left: 30px;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+#HepingIsland h2{
+    margin-bottom: 80px;
+    text-decoration: underline dashed rgb(205, 205, 205);
+}
+#BadouziCoastalPark{
+    text-align: justify;
+    width: 1125px;
+    float: left;
+}
+#BadouziCoastalPark img{
+    float: left;
+    margin-right: 30px;
+    margin-left: 240px;
+    margin-top: 75px;
+}
+#BadouziCoastalPark h2{
+    margin-bottom: 80px;
+    text-decoration: underline dashed rgb(205, 205, 205);
+}
+li{
+    display: inline;
+}
+#navi_footer{
+    background-color: white;
+    text-align: center;
+    font-family: 游明朝, 游ゴシック;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: gray;
+}
+#copyright{
+    font-size: xx-small;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}

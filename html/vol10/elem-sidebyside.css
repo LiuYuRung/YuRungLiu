@@ -1,0 +1,23 @@
+.parent {
+    font-size: 0;
+}
+.box {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: medium;
+    padding: 10px;
+    width: 25%;
+    border-style: solid;
+}
+.left {
+    border-left-width: 4px;
+    border-right-width: 2px;
+}
+.center {
+    border-left-width: 2px;
+    border-right-width: 2px;    
+}
+.right {
+    border-left-width: 2px;
+    border-right-width: 4px;    
+}

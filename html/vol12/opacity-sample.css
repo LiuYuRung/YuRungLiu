@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+a{
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid darkblue;
+    background-color: lightblue;
+    box-sizing: border-box;
+    width: 24%;
+    opacity: 0.5;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Bauhaus 93', sans-serif;
+}
+nav {
+    text-align: center;
+}
+a:hover{
+    opacity: 1;
+}

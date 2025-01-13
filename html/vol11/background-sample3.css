@@ -1,0 +1,38 @@
+body{
+    background: url("images/note.png") repeat-y left;
+    margin-left: 80px;
+}
+strong{
+    background-clip: text;
+    background-image: linear-gradient(#FF0000 0%,orange 100%);
+}
+
+h2 {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 5em;
+    color: rgba(0 ,0 ,0 ,0);
+    width: fit-content;
+    -webkit-text-stroke: 1px black ;
+    -webkit-background-clip: text;
+    background-size: cover;
+}
+.jpn {
+    background-image: url("images/japan.png");
+}
+.usa{
+    background-image: url("images/usa.png");
+}
+.gbr {
+    background-image: url("images/briten.png");
+}
+.chn {
+    background-image: url("images/china.png");
+}
+.kor{
+    background-image: url("images/korea.png");
+}
+.vet {
+    background-position: 0px -60px;
+    background-image: url("images/vetnum.png");
+}

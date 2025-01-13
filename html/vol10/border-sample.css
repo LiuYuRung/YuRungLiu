@@ -1,0 +1,23 @@
+.ex01{
+    border-bottom:dashed plum 3px;
+}
+.ex02{
+    border-left:solid 15px blueviolet;
+}
+.ex03{
+    border-top: dotted 3px darkcyan;
+}
+.ex04{
+    border:3px orange outset;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width:fit-content;
+}
+.ex04::before{
+    content:"●";
+}
+.ex05{
+    border-bottom:5px solid;
+    border-image-source:repeating-linear-gradient(to left, white 0%, blue 100%);
+    border-image-slice: 10;
+}

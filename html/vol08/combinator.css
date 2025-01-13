@@ -1,0 +1,15 @@
+#result span{
+    color:red;
+}
+
+.second > th {
+    color:blue;
+}
+
+table + p {
+    color:orange;
+}
+
+.team ~ th {
+    color:green;
+}

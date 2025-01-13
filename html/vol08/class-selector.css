@@ -1,0 +1,12 @@
+/* class属性に「choco」が含まれる要素の色が赤になる；*はユニバーサルセレクター*/
+*.choco {
+    color:red;
+}
+/* class属性に「cake」が含まれる要素の色が青になる*/
+.cake {
+    color:blue;
+}
+/* class属性に「foo」が含まれる要素の色が緑になる；h2はタープセレクター*/
+h2.foo {
+    color:green;
+}

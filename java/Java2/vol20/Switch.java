@@ -1,0 +1,21 @@
+class Switch{
+    public static void main(String[] args){
+        String season = args[0];
+        switch(season){
+            case "Spring":
+                System.out.println("èt");
+                break;
+            case "Summer":
+                System.out.println("âƒ");
+                break;
+            case "Autumn":
+                System.out.println("èH");
+                break;
+            case "Winter":
+                System.out.println("ì~");
+                break;
+            default:
+                System.out.println("ÇªÇÃëº");                                                
+        }
+    }
+}

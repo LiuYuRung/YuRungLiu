@@ -1,0 +1,13 @@
+body{
+    font-family:"游明朝";
+}
+p{
+    font-weight:bold;
+    line-height:2;
+}
+.intro{
+    text-decoration: underline dotted red;
+}
+.em{
+    font-style:oblique;
+}

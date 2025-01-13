@@ -1,0 +1,29 @@
+a{
+    text-decoration-line: none;
+}
+li{
+    line-height:3;
+    font-size:1.5em;
+}
+.buffaloes {
+    text-decoration-line: underline;
+}
+.hawks {
+    text-decoration-line: overline;
+    text-decoration-style:orange;
+}
+.lions {
+    text-decoration-line: overline;
+    text-decoration-style: dashed;    
+}
+.marines {
+    text-decoration-line: overline underline;
+    text-decoration-color:#CCC;
+    text-decoration-style:wavy;    
+}
+.eagles {
+    text-decoration: line-through double hsl(352, 100%, 26%);
+}
+.fighters{
+    text-shadow: 10px 5px 5px rgba(2, 81, 140, 1.0);
+}

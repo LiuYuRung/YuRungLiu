@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>CSSの優先度確認3</title>
+  <style>
+    .foo{
+      color:red;
+    }
+    .bar{
+      color:yellow;
+    }
+  </style>
+  <link rel="stylesheet" href="priority-sample3a.css">
+  <link rel="stylesheet" href="priority-sample3b.css">
+
+</head>
+<body>
+  <h2 class="foo">class属性がfooの見出し</h2>
+  <h2 class="bar">class属性がbarの見出し</h2>
+  <h2 class="hoge">class属性がhogeの見出し</h2>
+  <h2 class="piyo">class属性がpiyoの見出し</h2>
+  <style>
+    .bar{
+      color:blue;
+    }
+    .piyo{
+      color:cyan;
+    }
+  </style>
+</body>
+</html>

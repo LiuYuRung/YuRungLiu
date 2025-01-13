@@ -1,0 +1,14 @@
+aside{
+    border: solid grey;
+    max-width: 200px;
+    max-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h3{
+    color:green;
+}
+iframe{
+    max-width: 200px;
+    max-height: 150px;
+}

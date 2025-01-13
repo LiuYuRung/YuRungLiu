@@ -1,0 +1,7 @@
+/*  title属性が設定されており、属性が「no1」*/
+[title="no1"] {
+    color:red;
+}
+p[lang]{
+    color:blue;
+}

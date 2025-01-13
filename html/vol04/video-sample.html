@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Sample</title>
+</head>
+<body>
+  <h1>動画の表示</h1>
+  <p>1. 動画を自動再生します。autoplay属性はmuted属性とともに利用します。</p>
+  <video src="videos/sea01_640.mp4" autoplay muted loop></video>
+
+  <p>2. poster属性でロード中や動画読み込み失敗時に表示される画像を指定します。</p>
+  <video src="video/sea01_640.mp4" controls poster="images/broken-link_640.png"></video>
+
+  <p>3. video要素の内容にsource要素を記述すると、source要素の上から順に再生可能なものを再生します。</p>
+  <video width="320" autoplay loop muted>
+    <source src="videos/sea01_640.mov">
+    <source src="videos/sea01_640.mp4">
+    video要素はサポートされていません。
+  </video>
+</body>
+</html>

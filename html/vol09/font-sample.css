@@ -1,0 +1,25 @@
+li{
+    line-height: 2 ;
+}
+.buffaloes {
+    font-family: "BIZ UDPゴシック", "Yu Gothic","Meiryo",sans-serif ;
+    font-size: 1.2em;
+}
+.hawks {
+    font-weight: 900;
+}
+.lions {
+    font-size: xx-large ;
+    font-weight: 100;
+}
+.marines {
+    font-family: "MS Gothic" ;
+    font-style: italic;
+}
+.eagles{
+    font-size: 1.5rem;
+    font-weight:bold;
+}
+.fighters {
+    font: 700 oblique 30px/4 "MS Mincho";
+}

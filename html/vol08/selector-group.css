@@ -1,0 +1,4 @@
+/*class属性のクラス名に「baseball」「soccer」「rugby」のいずれかが含まれる要素のの色が青になる*/
+.baseball, .soccer, .rugby {
+    color:blue;
+}

@@ -1,0 +1,67 @@
+
+#navi_header{    
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.navi_k{
+    width: 1250px;
+}
+.navi_s{
+    width: 1000px;
+}
+.navi_f{
+    width: 1000px;
+}
+.navi_t{
+    width: 1000px;
+}
+#mainpart1{
+    height: 1950px;
+    background-color: rgba(250, 235, 215, 0.658);
+    font-family: 游明朝, 游ゴシック;
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 900;
+}
+h3{
+    text-decoration: underline dashed rgb(205, 205, 205);
+    color: rgb(68, 68, 68);
+    margin-bottom: 0;
+}
+#food-1{
+    display: flex;
+}
+#food-1 div{
+    width: 250px;
+    margin-left: 120px;
+}
+span{
+    font-size: smaller;
+    background-color: rgba(255, 195, 55, 0.5);
+    border-radius:3px;
+}
+li{
+    display: inline;
+}
+#navi_footer{
+    background-color: white;
+    text-align: center;
+    font-family: 游明朝, 游ゴシック;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+    font-family: 游明朝, 游ゴシック;
+}
+a:hover{
+    color: gray;
+    font-family: 游明朝, 游ゴシック;
+}
+#copyright{
+    font-size: xx-small;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}

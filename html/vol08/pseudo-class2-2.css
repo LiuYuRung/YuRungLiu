@@ -1,0 +1,6 @@
+p:nth-child(odd) {
+    color:green;
+}
+p:nth-last-child(2n) {
+    color:purple;
+}

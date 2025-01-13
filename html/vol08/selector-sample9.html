@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Selector Sample</title>
+  <link rel="stylesheet" href="combinator.css">
+</head>
+<body>
+  <h2>試合速報</h2>
+  <p>PK戦の結果です。</p>
+  <table border="1">
+    <thead>
+      <tr><th class="team">チーム名</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
+    </thead>
+    <tbody id="result">
+      <tr class="first">
+        <th>Aチーム</th>
+        <td><span>○</span></td><td>×</td><td>×</td><td><span>○</span></td><td><span>○</span></td>
+      </tr>
+      <tr class="second">
+        <th>Bチーム</th>
+        <td><span>○</span></td><td>×</td><td><span>○</span></td><td><span>○</span></td><td><span>○</span></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>Bチームが劇的な勝利をおさめました！</p>
+</body>
+</html>

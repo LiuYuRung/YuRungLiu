@@ -1,0 +1,43 @@
+h1 {
+    background: linear-gradient(transparent 70%,#a7d6ff 70%);
+    padding-left: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table{
+    margin: -10px 0px 0px 20px0;
+    width: 90%;
+    font-size: 1.5em;
+}
+td:nth-child(1), td:nth-child(2){
+    width: 60px;
+    text-align: center;
+}
+h2 {
+    position: sticky;
+    padding: 20px 30px;
+    background-color: aliceblue;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+}
+h2::after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 30px;
+    border: 15px solid transparent;
+    border-top: 15px solid aliceblue;
+    width: 0;
+    height: 0;
+}
+footer {
+    background-color: lightgray;
+    margin-top: 30px;
+    padding: 20px 0px;
+    text-align: center;
+}

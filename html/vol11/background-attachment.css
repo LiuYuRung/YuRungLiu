@@ -1,0 +1,30 @@
+.box {
+    width: 250px;
+    height: 300px;
+    overflow-y: scroll;
+    background-image: url("images/horseracing.png");
+    margin-right: 20px;
+}
+
+.container {
+    width: 900px;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.buffer {
+    height: 600px;
+}
+
+.contents{
+    display: inline-block;
+}
+.scroll {
+    background-attachment: scroll;
+}
+.fixed {
+    background-attachment: fixed;
+}
+.local {
+    background-attachment: local;
+}

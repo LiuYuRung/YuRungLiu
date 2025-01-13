@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>交通案内|Keelung</title>
+    <link rel="stylesheet" href="css/traffic.css">
+    <link rel="icon" href="images/car-b.png">
+</head>
+<body>
+    <header>
+        <table id="navi_header">
+            <tr>
+            <th class="navi_k">    
+            <img src="images/keelung-b.png" width="100" height="50" alt="main-page" usemap="#keelung">
+            <map name="keelung">
+                <area shape="default" href="index.html">
+            </map>
+            </th>
+            <th class="navi_s"> 
+            <img src="images/spot-b.png" width="175" height="50" alt="観光スポット" usemap="#spot">
+            <map name="spot">
+                <area shape="default" href="spot.html">
+            </map>
+            </th> 
+            <th class="navi_f">
+            <img src="images/wfood-b.png" width="150" height="50" alt="グルメ情報" usemap="#food">
+            <map name="food">
+                <area shape="default" href="food.html">
+            </map>
+            </th>
+            <th class="navi_t">
+            <img src="images/traffic-b.png" width="125" height="50" alt="交通案内" usemap="#traffic">
+            <map name="traffic">
+                <area shape="default" href="traffic.html">
+            </map>
+            </th> 
+            </tr> 
+        </table>
+    </header>
+    <main id="mainpart1">
+        <h1>交通案内</h1>
+        <h2>電車でお越しの方</h2>
+        <div id="trafficbytrain">  
+            <img id="TRClogo" src="images/TRC_logo.png" alt="國營臺灣鐵路股份有限公司" usemap="#train" height="40px">
+            <map name="train" id="keelungstation">
+                <area shape="default" href="https://tip.railway.gov.tw/tra-tip-web/tip?lang=JA_JP">
+            </map>
+            <br>
+            <img id="trainmap" src="images/trainmap.png" height="300px" alt="電車でお越しの方">            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.7058419719885!2d121.73929766447051!3d25.13191807274004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4f334900727f%3A0x8844b8d4c11fab62!2sKeelung%20Station!5e0!3m2!1sja!2sjp!4v1723005200141!5m2!1sja!2sjp" width="300px" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h2>高速バスでお越しの方</h2>
+        <div id="trafficbyhighwaybus">
+            <table class="highway">
+                <thead>
+                    <tr>
+                        <th>　会社　</th><th>　線路　</th><th>　始発　</th><th>　終点　</th><th>　Webページ　</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>　首都バス　</th><th>　1579　</th><th>　八斗子　</th><th>　圓山轉運站　</th><th><a href="https://www.taiwanbus.tw/eBUSPage/Query/QueryResult.aspx?rno=15790&rn=1699373623278&lan=C" target="_blank">詳しい</a></th>
+                    </tr>
+                    <tr>
+                        <th>　大都會バス　</th><th>　2088　</th><th>　基隆女中　</th><th>　市府轉運站　</th><th><a href="https://www.mtcbus.com.tw/index.php?m=Route&a=detail&id=2088" target="_blank">詳しい</a></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div> 
+        <h2>車でお越しの方</h2>
+        <div id="trafficbycar">                   
+            <table>
+                <caption id="highwaybycar">高速道路</caption>
+                <tr>
+                    <th><img src="images/TWHW1.png" alt="国道1号" width="25px"></th>
+                </tr>
+                <tr>
+                    <th>国道1号→<br>
+                        基隆端インターチェンジで降りる</th>
+                </tr>
+            </table>
+        </div>
+        <h2>周辺の駐車場</h2>
+        <div id="parkinglot">
+            <table id="parkinglottable">
+                <thead>
+                    <tr>
+                    <th width="250px">駐車場名</th><th width="350px">収容台数</th><th width="200px">地図</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>基隆港西3駐車場</th><th>484台<br>(障害者専用スペース：10<br>妊婦と幼児優先スペース：10)</th><th><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.0169330169!2d121.73948849231262!3d25.135118371992558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4f0cc9eaad1d%3A0xfa67a5f90912f347!2z5Z-66ZqG5riv6KW_5LiJ5YGc6LuK5aC0!5e0!3m2!1sja!2sjp!4v1723158979282!5m2!1sja!2sjp" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></th>
+                    </tr>
+                    <tr>
+                        <th>基隆南站駐車場</th><th>77台<br>(障害者専用スペース：3<br>妊婦と幼児優先スペース：2)</th><th><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57793.3716825299!2d121.70051771953119!3d25.13279231252597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4fde23ab63a7%3A0x13be3d37a0accc18!2z5Z-66ZqG6YO16LyqL-a1t-a0i-W6g-WgtC_lu5_lj6Mv54Gr6LuK56uZ5YGc6LuK5aC0!5e0!3m2!1sja!2sjp!4v1723159239793!5m2!1sja!2sjp" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></th>
+                    </tr>
+                    <tr>
+                        <th>富士捷基隆車站(南)駐車場</th><th>119台<br>(障害者専用スペース：3<br>妊婦と幼児優先スペース：3)</th><th><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.168738457785!2d121.73687059999999!3d25.129985500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4e1474cc60b1%3A0xac99a8cc4c7c7087!2sNo.%2012%2C%20Zhongshan%201st%20Rd%2C%20Zhongshan%20District%2C%20Keelung%20City%2C%20%E5%8F%B0%E6%B9%BE%20203!5e0!3m2!1sja!2sjp!4v1723161969034!5m2!1sja!2sjp" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></th>
+                    </tr>
+                    <tr>
+                        <th>信二駐車場</th><th>512台<br>(障害者専用スペース：16<br>妊婦と幼児優先スペース：10)</th><th><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d536.9485511637639!2d121.74595325903026!3d25.130791770992346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4e3f6e2f3693%3A0x51a446a7b82d7960!2z5L-h5LqM56uL5L2T5YGc6LuK5aC0!5e0!3m2!1sja!2sjp!4v1723162042746!5m2!1sja!2sjp" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></th>
+                    </tr>
+                    <tr>
+                        <th>基隆皇冠大樓停車場</th><th>153台<br>(障害者専用スペース：4<br>妊婦と幼児優先スペース：4)</th><th><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57793.3716825299!2d121.70051771953119!3d25.13279231252597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4fd9bf2cca5b%3A0xa3da149bb17e2f20!2z55qH5Yag5aSn5qW85Zyw5LiL5YGc6LuK5aC0!5e0!3m2!1sja!2sjp!4v1723162190282!5m2!1sja!2sjp" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></th>
+                    </tr>
+                    <tr>
+                        <th>基隆港東3~東4駐車場<br>(東岸郵輪旅客大樓)</th><th>54台<br>(障害者専用スペース：4)</th><th><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57793.3716825299!2d121.70051771953119!3d25.13279231252597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4f820c62591d%3A0xe920e11f47a75d2a!2z5Z-66ZqG5riv5p2xM-adsTTml4XlrqLmnI3li5nkuK3lv4PvvIjlj4Llm5vooYzvvIk!5e0!3m2!1sja!2sjp!4v1723162096353!5m2!1sja!2sjp" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></th>
+                    </tr>
+                    <tr>
+                        <th>博愛地下駐車場</th><th>253台<br>(障害者専用スペース：6<br>妊婦と幼児優先スペース：6)</th><th><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57793.3716825299!2d121.70051771953119!3d25.13279231252597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4e160750dceb%3A0xbfd417137d568e77!2sBo-ai%20Underground%20Parking!5e0!3m2!1sja!2sjp!4v1723162231137!5m2!1sja!2sjp" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></th>
+                    </tr>
+                    <tr>
+                        <th>東岸地下駐車場</th><th>666台<br>(障害者専用スペース：15<br>妊婦と幼児優先スペース：13)</th><th><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.1582520430256!2d121.74372079999999!3d25.130340100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4e3fcdac7627%3A0xa970e7c1a6217469!2z5Z-66ZqG5p2x5bK45Zyw5LiL5YGc6LuK5aC0!5e0!3m2!1sja!2sjp!4v1723162266419!5m2!1sja!2sjp" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>           
+    </main>    
+    <footer>
+        <div id="navi_footer">
+            <ul>
+                <li><a href="index.html">　基隆市　</a></li>
+                <li><a href="spot.html">　観光スポット　</a></li>
+                <li><a href="food.html">　グルメ情報　</a></li>
+                <li><a href="traffic.html">　交通案内　</a></li>
+            </ul>
+        </div>
+        <p id="copyright"><small>
+            Copyright &copy; 2024 Liu YuRung(24CA0243), All rights reserved.
+        </small></p>
+    </footer>
+</body>
+</html>

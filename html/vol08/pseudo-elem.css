@@ -1,0 +1,16 @@
+/*p要素の最初の行の色が赤になる*/
+p::first-line{
+    color:red;
+}
+/*h2要素の最初の文字の色が青になる*/
+h2::first-letter{
+    color:blue;
+}
+/*h2要素の先頭に「★」が挿入される*/
+h2::before{
+    content: "★" ;
+}
+/*h2要素の最後に「♪」が挿入される*/
+h2::after{
+    content: "♪";
+}

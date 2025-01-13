@@ -1,0 +1,19 @@
+.parent {
+    font-size: 0;
+}
+.box {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: medium;
+    padding: 10px;
+    border-width: 4px;
+    width: calc(25% - 10px);
+    border-style: solid;
+}
+.left {
+    margin-right: 10px;
+}
+
+.center {
+    margin-right: 10px;
+}

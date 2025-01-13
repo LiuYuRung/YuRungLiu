@@ -1,0 +1,9 @@
+.ex01{
+    width:80%;
+}
+.ex02{
+    min-width:500px;
+}
+.ex03 {
+    max-width:fit-content;
+}

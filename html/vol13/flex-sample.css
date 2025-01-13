@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+}
+.item{
+    background-color: aliceblue;
+    padding: 2em;
+    margin-right: 20px;
+}
+.other{
+    background-color: antiquewhite;
+}

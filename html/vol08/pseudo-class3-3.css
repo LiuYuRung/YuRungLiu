@@ -1,0 +1,3 @@
+tr:has(.winner) {
+    color:green;
+}

@@ -1,0 +1,16 @@
+.danger{
+    font-family:Impact;
+    font-size:50px;
+    color:palevioletred;
+}
+.warning{
+    font-family:Impact;
+    font-size:50px;
+    color:orange;
+}
+.caution{
+    font-family:Impact;
+    font-size:50px;
+    color:yellow;
+    text-shadow:2px 2px black;
+}

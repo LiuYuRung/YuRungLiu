@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Art Text: jecPTT</title>
+  <link rel="stylesheet" href="styles.css"> <!-- 引入外部CSS文件 -->
+</head>
+<body>
+
+<div id="pixelCanvas"></div>
+
+<script>
+  // 字母 "jecPTT" 的像素化設計，每個字母是 5x5 矩陣
+  const font = {
+    'j': [
+      [0, 0, 1, 1, 0],
+      [0, 0, 0, 1, 0],
+      [0, 0, 0, 1, 0],
+      [0, 0, 0, 1, 1],
+      [0, 1, 1, 1, 0]
+    ],
+    'e': [
+      [1, 1, 1, 1, 1],
+      [1, 0, 0, 0, 0],
+      [1, 1, 1, 1, 0],
+      [1, 0, 0, 0, 0],
+      [1, 1, 1, 1, 1]
+    ],
+    'c': [
+      [1, 1, 1, 1, 0],
+      [1, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0],
+      [1, 1, 1, 1, 0]
+    ],
+    'P': [
+      [1, 1, 1, 1, 0],
+      [1, 0, 0, 0, 0],
+      [1, 1, 1, 1, 0],
+      [1, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0]
+    ],
+    'T': [
+      [1, 1, 1, 1, 1],
+      [0, 0, 1, 0, 0],
+      [0, 0, 1, 0, 0],
+      [0, 0, 1, 0, 0],
+      [0, 0, 1, 0, 0]
+    ]
+  };
+
+  // 字符串 "jecPTT"
+  const text = "jecPTT";
+
+  // 繪製像素畫
+  function drawPixelArt() {
+    const container = document.getElementById('pixelCanvas');
+
+    // 遍歷每個字母
+    for (let letter of text) {
+      const grid = document.createElement('div');
+      grid.classList.add('pixel-grid');
+
+      // 繪製每個字母的像素
+      const pixelMatrix = font[letter]; // 獲取字母的像素矩陣
+      for (let row of pixelMatrix) {
+        for (let pixel of row) {
+          const pixelDiv = document.createElement('div');
+          pixelDiv.classList.add('pixel');
+          if (pixel === 1) {
+            pixelDiv.classList.add('active');  // 文字像素顯示為白色
+          }
+          grid.appendChild(pixelDiv);
+        }
+      }
+
+      container.appendChild(grid);
+    }
+  }
+
+  drawPixelArt();
+</script>
+
+</body>
+</html>

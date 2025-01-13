@@ -1,0 +1,90 @@
+
+#navi_header{    
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.navi_k{
+    width: 1250px;
+}
+.navi_s{
+    width: 1000px;
+}
+.navi_f{
+    width: 1000px;
+}
+.navi_t{
+    width: 1000px;
+}
+#mainpart1{ 
+    background-color: rgba(250, 235, 215, 0.658);
+    text-align: center;
+    font-family: 游明朝, 游ゴシック;
+}
+h2{
+    text-decoration: underline dashed rgb(205, 205, 205);
+}
+#trafficbytrain{
+    height: 450px;
+    
+}
+#trainmap{
+    border-radius:15px;
+    grid-column: 2/3;
+    grid-row: 1;
+}
+#TRClogo{
+    grid-column: 1/3;
+    grid-row: 1/6;
+}
+#keelungstation{
+    grid-column: 1/3;
+    grid-row: 5/6;
+}
+#trafficbyhighwaybus{
+    height: 150px;
+    width: 475px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+table{
+    background-color: rgba(255, 255, 255, 0.15);
+}
+#trafficbycar{
+    height: 150px;
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+#parkinglot{
+    height: 1700px;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+#parkinglottable thead{
+    background-color: rgba(66, 66, 66, 0.15);
+}
+#navi_footer li{
+    display: inline;
+}
+#navi_footer{
+    background-color: white;
+    text-align: center;
+    font-family: 游明朝, 游ゴシック;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: gray;
+}
+#copyright{
+    font-size: xx-small;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}

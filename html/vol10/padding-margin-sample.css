@@ -1,0 +1,35 @@
+.ex01{
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+    border-bottom: dashed plum 3px;
+}
+.ex02{
+    padding-left: 10px;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    border-left: solid 15px blueviolet;
+    border-bottom: solid 3px blueviolet;
+}
+.ex03{
+    width: 40%;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #4ec4d3;
+}
+.ex04, .ex04 td {
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    padding: 5px 10px 5px;
+}
+.ex05{
+    margin-top: 20px;
+    margin-left: 1.5em;
+    display: inline-block;
+    border: solid 1px blue;
+    border-radius: 50%;
+    padding: 60px 50px;
+    text-decoration: none;
+}

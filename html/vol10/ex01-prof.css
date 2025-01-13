@@ -1,0 +1,15 @@
+aside{
+    border: solid black;
+    max-width: 250px;
+    padding-left: 15px;
+}
+p{
+    max-width: 200px;
+    padding-left: 15px;
+}
+figure{
+    max-width: max-content;
+}
+img{
+    width: 150px;
+}
