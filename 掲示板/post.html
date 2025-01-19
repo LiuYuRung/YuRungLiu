@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>post</title>
+    <link rel="icon" href="img/WEBpage.png">
+    <link rel="stylesheet" href="css/post.css">
+</head>
+<body>
+    <header>
+        <div id="navi_header">
+            <a href="index.html" class="navi_m">jecBBS</a>
+            <span>></span>　投稿
+            <a href="bbs.jsp" class="navi_b">　掲示板</a>
+            <a href="post.html" class="navi_p">　投稿　</a>
+            <a href="delete" class="navi_d">　削除</a>
+        </div>
+    </header>
+    <main id="mainpart">
+        <h2>内容を追加</h2>
+        <form method="POST" action="post">
+            名前：<input type="text" name="name">
+            <br>
+            <br>
+            色<input type="color" name="color" value="#ffffff"><br>
+            <br>
+            <textarea name="comment" rows="15" cols="50">自由に意見を記述してください</textarea><br>
+            <button type="submit">投稿</button>
+        </form>
+        <br>
+        <a href="index.html">メニューを戻る</a>
+    </main>
+    <footer>
+        <p id="copyright"><small>
+            Copyright &copy; 2025 Liu YuRung(24CA0243), All rights reserved.
+        </small></p>
+    </footer>    
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+a:hover{
+    text-decoration: none;
+    background-color: grey;
+    border: 2px solid whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#copyright{
+    font-size: xx-small;
+    color: gainsboro;
+    font-style: italic;
+    text-align: center;
+    padding-top: 150px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color:whitesmoke;
+    text-align: center;
+}
+main{
+    margin: 0 auto;
+    width: 500px;
+}
+header{
+    background-color:blue;
+    margin: 0px;
+    padding: 0px;
+    color: whitesmoke;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+}
+#navi_header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 125px;
+    padding-right: 125px;
+} 
+.navi_m{
+    margin-right: 10px;
+}
+.navi_b{
+    margin-left: 10px;
+    margin-left: auto;
+}
+div{
+    padding: 10;
+}
+span{
+    font-size: xx-small;
+}
